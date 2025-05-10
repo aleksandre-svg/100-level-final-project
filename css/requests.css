@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+button,
+label,
+.btn {
+    font-family: 'FiraGO', sans-serif;
+    font-weight: normal;
+    font-feature-settings: "case" on;
+}
+
+p,
+input {
+    font-family: 'FiraGO', sans-serif;
+    font-weight: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.932); 
+    color: hsl(0, 0%, 100%);
+}
+
+.request {
+    background-color: #6cbe77;
+    border-left: 5px solid #0077cc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    flex: 1 1 calc(50% - 20px); /* 2 per row */
+    max-width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

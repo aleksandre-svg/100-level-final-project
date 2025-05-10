@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+<body>
+    <img src="images/gray.png" id="banner" style="z-index: -1;">
+    <div id="cont">
+        <div id="main">
+            <img src="images/profile.png" style="width: 250px;" id="prof">
+            <section id="content">
+                <h1 id="name">Name</h1>
+                <p id="email">Email</p>
+            </section>
+        </div>
+        <div id="main1">
+            <h1>info</h1><br>
+            <label for="username">Username</label>
+            <input type="text" readonly value="" id="username"><br>
+            <label for="em">Email:</label>
+            <input type="text" id="em" value="" readonly><br>
+            <label for="userpass">Password</label>
+            <input type="text" id="userpass" value="" readonly>
+        </div>
+        <button id="logout">Log Out</button>
+        <a href="index.html"><button class="button">Back</button></a>
+    </div>
+    <script src="js/profile.js"></script>
+</body>
+</html>
